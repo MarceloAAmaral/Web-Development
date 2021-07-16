@@ -1,0 +1,110 @@
+root { 
+    display: block;
+}
+* {
+    margin: 0;padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'arroyoregular';
+    src: url('fonts/arroy-webfont.woff2') format('woff2'),
+         url('fonts/arroy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	
+}
+
+@font-face {
+    font-family: 'lemon';
+    src: url('fonts/lemon.woff2') format('woff2'),
+         url('fonts/lemon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icones/icomoon.eot?1oydok');
+  src:  url('icones/icomoon.eot?1oydok#iefix') format('embedded-opentype'),
+    url('icones/icomoon.ttf?1oydok') format('truetype'),
+    url('icones/icomoon.woff?1oydok') format('woff'),
+    url('icones/icomoon.svg?1oydok#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[data-icon]:before{
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-icon='seta']:before {content: "\e900";color: #37505d ;background: #fff;border-radius: 20px 0 0 20px;}
+
+body{font-family: 'latoregular';
+	 color: #37505d;
+	 overflow-x: hidden;
+	 font-size: 14pt;
+	 background-image:url('../../img/bg.jpg'); background-repeat: no-repeat; background-position: 0% 0%;
+	 background-attachment: fixed;
+}
+article, aside, details, figcaption, figure, footer, header, nav, section {display: block;}
+a{ text-decoration: none; color:#0098db; }
+h1{text-transform: uppercase;text-align:center; font-size: 600%; padding: 5% 0;font-family: 'lemon';}
+h2{font-family: 'arroyoregular';text-transform: uppercase;letter-spacing: 0.5px;font-weight: 100;color: #000}
+h3{font-family: 'latolight';text-transform: uppercase;font-size: 80%;padding: 2% 0}
+h4{color: #6f6f6f;font-size: 90%;text-align: center;padding: 6% 0;font-family: 'latolight'; text-tranform: uppercase}
+hr{border-bottom: solid 1px #fff;}
+p{line-height:120%; font-size: 200%;}
+img{width: 100%; border: none;}
+article{font-family: 'lemon';padding: 10% 1% 5% 1%}
+section{width:100%;float:left}
+
+
+.colunas{display: inline-block}
+.col-1{width: 10%}
+.col-2{width: 20%}
+.col-3{width: 30%}
+.col-4{width: 40%}
+.col-5{width: 50%}
+.col-6{width: 60%}
+.col-7{width: 70%}
+.col-8{width: 80%}
+.col-9{width: 90%}
+.col{width: 100%; float: left;}
+.z10{z-index:10;}
+.left{float: left;left:0;}
+.right{float: right;right:0;}
+.bg1{background-color: #fff}
+.bg2{background-color: #fcfcfc}
+.flex{display: flex;}
+.flex-center{justify-content:center;-webkit-box-align: center; -ms-flex-align: center;align-items: center;}
+.row{width: 100%;padding:1%; margin:0;display:inline-block}
+.row-center{margin: 0px auto}
+.nwp{white-space: nowrap}
+.alg-items{align-items: center}
+.rotateY180{transform: rotateY(180deg)}
+.none{display:none}
+footer{text-align:right}
+#minha-vida .col{padding : 1% 0;}
+
+#navegacao{position: absolute; height:100%; padding-top:10%; color: #fff}
+#container-galeria {display:block; position:relative;height: 500px}
+#container-galeria #fotos{position:absolute; width: 1000%; height:100%;margin-left:0}
+#container-galeria .item{float: left;height:100%;text-align:center;}
+#container-galeria .item img{height:100%; width: auto;margin: 0px auto}
+#container-galeria [data-icon='seta']{font-size: 650%;cursor: pointer }
+
+

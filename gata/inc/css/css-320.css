@@ -1,0 +1,8 @@
+h1{font-size:400%;}
+section{margin: 0px auto;float:left;}
+article{padding:5%}
+#container-galeria {height: 200px}
+#container-galeria [data-icon='seta']{font-size: 250%}
+#navegacao{padding-top:25%}
+#quem-sou article {width: 100%;}
+#minha-vida .col-5,#minha-vida .col-4{width:100%;}
